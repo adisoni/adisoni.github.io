@@ -1,23 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" >
-
-<head>
-  <meta charset="UTF-8">
-  <title>Aditya Soni</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
 
   <!DOCTYPE html> 
 <html lang="en">
 	<head>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 		<title>Aditya Soni</title>
+		<link rel="stylesheet" href="css\style.css">
 		<meta charset="utf-8">
   	</head>
     	<body>
@@ -47,8 +35,6 @@
 								
 				
 
-
-				
 			</script>
 
 			
@@ -67,29 +53,72 @@
 	<h3 id = "greetings"> Hello! </h3>
           
           <p > 
-           I am a rising sophomore at the University of Michigan, Ann Arbor, studying Computer Science. I am interested in Web Development, Cryptography and Teaching. Check out some of my recent projects, have a look at my resume and feel free to contact me using any of the following     </p>
+           I am a rising sophomore at the University of Michigan, Ann Arbor, studying Computer Science. I am interested in Web Development, Cryptography and Teaching. Check out some of my recent <a id=projectsLink href="#projectHeader">projects</a>, have a look at my <a id=resumeLink onclick="window.open('AdityaSoniResume.pdf', '_blank')">resume</a> and feel free to contact me using any of the following     </p>
 	
 	<div id="contactMe">
-	<a href="https://www.facebook.com/aditya.soni.1000" target = "_blank">
-          <img src = "https://preview.ibb.co/erxbAo/flogo_RGB_HEX_Blk_1024.png" height=30px  id="facebook">
-          </a>
-          
-          <a href="https://www.instagram.com/soni.aditya45/" target = "_blank">
-          <img src = "https://image.ibb.co/jUorAo/glyph_logo_May2016.png" height=30px id="instagram">
-          </a>
-	</div>
-	
-        </section>
-
-	<section id="resume">
-		<embed src="AdityaSoniResume.pdf" height="1100px" />
+		<a href="https://www.facebook.com/aditya.soni.1000" target = "_blank">
+          <img src = "flogo-RGB-HEX-Blk-512.png" height=30px  id="facebook">
+        </a>
 		
-	</section>
-        <footer> 
-          
-          
-        </footer>
-        
+        <a href="https://www.instagram.com/soni.aditya45/" target = "_blank">
+          <img src = "glyph-logo_May2016.png" height=30px id="instagram">
+		</a>
+		
+		<a href="https://www.github.com/adisoni/" target = "_blank">
+			<img src = "GitHub-Mark-120px-plus.png" height=30px id="github">
+		</a>
+
+		<a href="mailto:soni.aditya45@gmail.com" target = "_blank">
+			<img src = "https://upload.wikimedia.org/wikipedia/commons/d/df/Aiga_mail.svg" height=33px id="mail">
+		</a>
+
+	</div>
+	</article>
+	
+		</section>
+
+		<H2 id=projectHeader>
+			Projects
+		</H2>
+
+		<section id=projects>
+
+			<div id=project1 class=projects onclick="window.open('https://github.com/adisoni/Node-Terminal-Chat', '_blank')"> 
+				<H3> 
+					Node Terminal Chat
+				</H3> 
+				<p><span>Languages:</span> JavaScript 
+					<br><br><span>Tools/Frameworks:</span> Node.js, Socket.io 
+				<br><br><span>Description:</span><br>
+				A simple and fun to use chat application that can be used over Terminal. <!--created with Node.js and socket.io -->
+				</p> 
+			</div>
+
+			<div id=project2 class=projects onclick="window.open('https://github.com/adisoni/Youtube-to-Spotify-Playlist', '_blank')"> 
+				<H3> 
+					Youtube to Spotify Playlist
+				</H3> 
+				<p><span>Languages:</span> JavaScript, HTML, CSS <br>
+				<br><span>Tools/Frameworks:</span> JQuery <br> 
+				<br><span>Description:</span><br>
+					 A chrome extension <!--<a target="_blank" href="https://chrome.google.com/webstore/detail/youtube-to-spotify-playli/fjjpfebmddbcnjpcgobicbiegimoidln">chrome widget</a>--> which instantly add songs being listened to on Youtube to a Spotify playlist. 
+				</p> 
+			</div>
+		
+
+			<div id=project3 class=projects onclick="window.open('https://github.com/adisoni/Classes-to-Google-Calendar', '_blank')"> 
+				<H3> 
+					Classes to Google Calendar
+				</H3> 
+				<p><span>Languages:</span> JavaScript, HTML, CSS <br>
+				<br><span>Tools/Frameworks:</span> JQuery <br> 
+				<br><span>Description:</span><br>
+					A chrome extension <!--<a target="_blank" href="https://chrome.google.com/webstore/detail/youtube-to-spotify-playli/fjjpfebmddbcnjpcgobicbiegimoidln">chrome widget</a>--> for University of Michigan students which adds their classes to Google Calendar directly from Wolverine Access.
+				</p> 
+			</div>
+
+		
+		</section>    
         
 	</body>
 </html>

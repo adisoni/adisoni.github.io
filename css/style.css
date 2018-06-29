@@ -1,5 +1,5 @@
 body {
-  background-color: #d3d3d3;
+  background-color: #fcf2f2;
 }
 
 header {
@@ -9,7 +9,6 @@ header {
   margin-bottom: 20px;
   padding-bottom:5px;
 }
-
 
 h1{
   border-bottom: 2px #FFFFFF solid;
@@ -30,13 +29,11 @@ header p {
   font-size:18px;
 }
 
-
-
 section {
   display:flex;
-  background-color: #d3d3d3;
+  background-color: #fcf2f2;
   width: 75%;
-  min-width:500px;
+  /*min-width:500px;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -44,7 +41,7 @@ section {
 #Introduction {
   width: 40%;
   color: black;
-  float: right;
+  float: left;
   margin: auto;
 }
 
@@ -59,9 +56,10 @@ section {
 }
 
 #contactMe {
-  width: 88px;
+  width: 153px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom:10px;
 }
 
 #MyPicture {
@@ -70,21 +68,6 @@ section {
   max-height: 600px;
 }
 
-#resume {
-  background-color: #545759;
-  margin-left: auto;
-  margin-right: auto;
-  width:100%;
-  margin:0;
-
-}
-
-embed {
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 800px;
-  width: 75%
-}
 
 footer {
   clear: both;
@@ -97,9 +80,105 @@ footer {
 #facebook {
   margin: 10px;
   margin-right: 2px;
+  margin-left: 2px;
+  text-decoration: none;
 }
 
 #instagram{
   margin:10px;
   margin-left: 2px;
+  margin-right: 2px;
+  text-decoration: none;
 }
+
+#github{
+  margin:10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-decoration: none;
+}
+
+#mail{
+  margin:10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-decoration: none;
+}
+
+#projectsLink{
+  color:#09c9f9;
+  text-decoration: none;
+}
+
+#projectsLink:hover{
+  color:blue;
+}
+
+#resumeLink{
+  color:#04ce58;
+  text-decoration: none;
+}
+
+#resumeLink:hover{
+  color:green;
+  cursor:pointer;
+}
+
+.projects {
+  float:left;
+  width: 33%;
+  min-width: 150px;
+  margin: 10px;
+  cursor:pointer;
+  color: #2E1B36/*34415e*/;
+  background-color: #2bdce5;
+  overflow:hidden;
+}
+
+
+.projects:hover {
+  background-color: #283de0;
+  color:white;
+}
+
+.projects p {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.projects H3 {
+  font-size: 20px;
+  text-align:center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#projects{
+  margin-bottom: 50px;
+  background-color: rgb(253,242,242);
+}
+
+.projects span{
+  color: #5350b5
+}
+
+.projects:hover span{
+  color:#a4e3fc
+}
+
+#projectHeader{
+  width:100%;
+  text-align:center;
+  font-size: 30px;
+}
+
+.projects a{
+  color:#2E1B36;
+  text-decoration: none;
+}
+
+/*.projects a:hover{
+  color:green;
+}*/
+
