@@ -1,0 +1,192 @@
+body {
+  background-color: #fcf2f2;
+}
+
+header {
+  background-color: #3a8fd1;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom:5px;
+}
+
+h1{
+  border-bottom: 2px #FFFFFF solid;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header p {
+  padding-top:5px;
+  border-bottom: 2px #FFFFFF solid;
+  padding-bottom: 15px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:18px;
+}
+
+section {
+  display:flex;
+  background-color: #fcf2f2;
+  width: 75%;
+  /*min-width:500px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Introduction {
+  width: 40%;
+  color: black;
+  float: left;
+  margin: auto;
+}
+
+#Introduction p {
+  font-size:20px;
+  text-align: left;
+}
+
+#Introduction h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#contactMe {
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:10px;
+}
+
+#MyPicture {
+  width:40%;
+  margin: auto;
+  max-height: 600px;
+}
+
+
+footer {
+  clear: both;
+  margin-top: 50px;
+  background-color: #29c639;
+  color: #ffffff;
+  text-align: center;
+}
+
+#facebook {
+  margin: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
+  text-decoration: none;
+}
+
+#instagram{
+  margin:10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-decoration: none;
+}
+
+#github{
+  margin:10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-decoration: none;
+}
+
+#mail{
+  margin:10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-decoration: none;
+}
+
+#projectsLink{
+  color:#09c9f9;
+  text-decoration: none;
+}
+
+#projectsLink:hover{
+  color:blue;
+}
+
+#resumeLink{
+  color:#04ce58;
+  text-decoration: none;
+}
+
+#resumeLink:hover{
+  color:green;
+  cursor:pointer;
+}
+
+.projects {
+  /*float:left;*/
+  width: 33%;
+  min-width: 150px;
+  margin: 10px;
+  cursor:pointer;
+  color: #2E1B36/*34415e*/;
+  background-color: #2bdce5;
+  overflow:hidden;
+}
+
+
+.projects:hover {
+  background-color: #283de0;
+  color:white;
+}
+
+.projects p {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.projects H3 {
+  font-size: 20px;
+  text-align:center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#projects{
+  margin-bottom: 50px;
+  background-color: rgb(253,242,242);
+}
+
+.projects span{
+  color: #5350b5
+}
+
+.projects:hover span{
+  color:#a4e3fc
+}
+
+#projectHeader{
+  width:100%;
+  text-align:center;
+  font-size: 30px;
+}
+
+.projects a{
+  color:#2E1B36;
+  text-decoration: none;
+}
+
+/*.projects a:hover{
+  color:green;
+}*/
+
+
+
+.projectImages img {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
