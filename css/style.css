@@ -161,14 +161,14 @@ footer {
 }
 
 #projectDetails{
-  width:33%;
+  width:33vw;
   float:left;
   margin:auto;
   display: inline-block;
 }
 
 #projectImages{
-  width:51%;
+  width:51vw;
   display: inline-block;
   margin:auto;
   margin-left:2%;
@@ -186,7 +186,7 @@ footer {
 #projectHeader{
   width:100%;
   text-align:center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .projects a{
