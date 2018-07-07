@@ -1,0 +1,150 @@
+<html>
+	<head>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+
+  <div class="jumbotron">
+    <h1>&nbsp &nbsp &nbsp Aditya Soni &nbsp &nbsp &nbsp</h1>      
+    <p >I really wish I had something important to say here</p>
+  </div>
+
+
+	<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6" id="container1">
+
+		<img src = "images/IMG_2650.png" id="MyPicture" >
+
+	</div>
+        <div class="col-xs-12 col-sm-6" id="container2">
+
+		<div id="introPara">
+
+			<h3 id = "greetings"> Hello! </h3>
+
+		<p> 
+           I am a rising sophomore at the University of Michigan, Ann Arbor, studying Computer Science. I am interested in Web Development, Entrepreneurship and Teaching. Check out some of my recent <a id=projectsLink href="#projectHeader">projects</a>, have a look at my <a id=resumeLink onclick="window.open('AdityaSoniResume.pdf', '_blank')">resume</a> and feel free to contact me using any of the following     </p>
+
+		<div id="contactMe">
+		<a href="https://www.facebook.com/aditya.soni.1000" target = "_blank">
+          <img src = "images/contactMe/flogo-RGB-HEX-Blk-512.png" height=30px  id="facebook">
+        </a>
+		
+        <a href="https://www.instagram.com/soni.aditya45/" target = "_blank">
+          <img src = "images/contactMe/glyph-logo_May2016.png" height=30px id="instagram">
+		</a>
+		
+		<a href="https://www.github.com/adisoni/" target = "_blank">
+			<img src = "images/contactMe/GitHub-Mark-120px-plus.png" height=30px id="github">
+		</a>
+
+		<a href="mailto:soni.aditya45@gmail.com" target = "_blank">
+			<img src = "https://upload.wikimedia.org/wikipedia/commons/d/df/Aiga_mail.svg" height=33px id="mail">
+		</a>
+
+	</div>	
+
+	</div>
+    </div>
+	</div>
+
+		<H2 id=projectHeader>
+			Projects
+		</H2>
+
+	    <div class="row">
+        <div class="col-xs-12 col-sm-5"> 
+
+		<section id=projectDetails>
+
+
+			<div id=project1 class="projects"> <!-- onclick="window.open('https://github.com/adisoni/Classes-to-Google-Calendar', '_blank')"--> 
+				<H3> 
+					Classes to Google Calendar
+				</H3> 
+				<p><span>Languages:</span> JavaScript, HTML, CSS <br>
+				<br><span>Tools/Frameworks:</span> JQuery <br> 
+				<br><span>Description:</span><br>
+					A chrome extension <!--<a target="_blank" href="https://chrome.google.com/webstore/detail/youtube-to-spotify-playli/fjjpfebmddbcnjpcgobicbiegimoidln">chrome widget</a>--> for University of Michigan students which adds their classes to Google Calendar directly from Wolverine Access.
+				</p> 
+			</div>
+
+			<div id=project2 class="projects"> <!--onclick="window.open('https://github.com/adisoni/Youtube-to-Spotify-Playlist', '_blank')"--> 
+				<H3> 
+					Youtube to Spotify Playlist
+				</H3> 
+				<p><span>Languages:</span> JavaScript, HTML, CSS <br>
+				<br><span>Tools/Frameworks:</span> JQuery <br> 
+				<br><span>Description:</span><br>
+					 A chrome extension <!--<a target="_blank" href="https://chrome.google.com/webstore/detail/youtube-to-spotify-playli/fjjpfebmddbcnjpcgobicbiegimoidln">chrome widget</a>--> which instantly add songs being listened to on Youtube to a Spotify playlist. 
+
+				</p>
+								<!--<button onclick="window.open('https://github.com/adisoni/Youtube-to-Spotify-Playlist', '_blank')">View Code on Github</button> -->				
+				 
+			</div>
+
+			<div id="project3" class="projects"> <!--onclick="window.open('https://github.com/adisoni/Node-Terminal-Chat', '_blank')"--> 
+				<H3> 
+					Node Terminal Chat
+				</H3> 
+				<p><span>Languages:</span> JavaScript 
+					<br><br><span>Tools/Frameworks:</span> Node.js, Socket.io 
+				<br><br><span>Description:</span><br>
+				A simple and fun to use chat application that can be used over Terminal. <!--created with Node.js and socket.io -->
+				</p> 
+			</div>
+
+
+
+	</div>
+        <div class="col-xs-12 col-sm-7"> 
+
+<section id=projectImages>
+			<div id=project3Image class = projectImages>
+				<video src="images/codeDemonstrations/out-2.mp4" loop > </video>
+				<a href=https://github.com/adisoni/Node-Terminal-Chat target='_blank' class=githubLink> View code on Github </a>
+			</div>			
+
+			<div id=project2Image class = projectImages>
+				<video src="images/codeDemonstrations/out-1.mp4" loop> </video>
+<a href=https://github.com/adisoni/Youtube-to-Spotify-Playlist target='_blank' class=githubLink> View code on Github </a>
+			</div>
+
+			<div id=project1Image class = projectImages>
+				<video src="images/codeDemonstrations/out-3.mp4" loop> </video>
+<a href=https://github.com/adisoni/Classes-To-Google-Calendar target='_blank' class=githubLink> View code on Github </a>
+			</div>	
+
+<div id=project4Image class = projectImages>
+				<img src="images/codeDemonstrations/Screenshot from 2018-07-02 14-40-16.png">
+			</div>		
+
+		</section>
+
+
+	</div>
+	
+	<div class="col-xs-12"> 
+
+
+
+	</div>
+
+	</div>
+		<script src="js\greetings.js"></script>	
+		<script src="js\projects.js"></script>					
+	</body>
+</html>
