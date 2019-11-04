@@ -32,6 +32,14 @@
   font-size: 40px;
 }
 
+#internHeader{
+  margin-top: 20px;
+  border-top: 20px;
+  text-align: center;
+  width:100%;
+  font-size: 40px;
+}
+
 #projectImages{
   min-width: 300px;
   display: inline-block;
@@ -109,6 +117,14 @@
 				margin-right: 35%;
 				width: 70%;
 				max-width:400px;
+				margin-top:auto;
+				margin-bottom:auto;
+				text-align:center;		
+				font-size: 20px;		
+			}
+			#para {		
+				margin-left: 5%;
+				margin-right: 5%;
 				margin-top:auto;
 				margin-bottom:auto;
 				text-align:center;		
